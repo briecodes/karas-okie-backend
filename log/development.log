@@ -1800,3 +1800,406 @@ No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run D
 Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.8ms)
 
 
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:18:50 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:22:33 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.85ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:24:17 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.69ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:24:24 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.36ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:24:54 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.89ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:28:06 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.74ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:29:03 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.98ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:29:58 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.62ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:32:11 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.35ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:33:00 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.91ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:33:14 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.63ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:34:22 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.77ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:38:35 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.23ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:38:51 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.61ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:42:25 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.97ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:45:28 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.92ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:47:00 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.51ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:48:30 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.47ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:48:52 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.69ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:49:22 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Miles Teller", "artistName"=>"TLSP", "songTitle"=>"Miracle Aligner", "url"=>"https://www.youtube.com/watch?v=VPsyynjHpbY", "videoId"=>"VPsyynjHpbY", "user"=>{"name"=>"Miles Teller", "artistName"=>"TLSP", "songTitle"=>"Miracle Aligner", "url"=>"https://www.youtube.com/watch?v=VPsyynjHpbY", "videoId"=>"VPsyynjHpbY"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Miles Teller"], ["artistName", "TLSP"], ["songTitle", "Miracle Aligner"], ["url", "https://www.youtube.com/watch?v=VPsyynjHpbY"], ["created_at", "2018-06-13 20:49:22.833746"], ["updated_at", "2018-06-13 20:49:22.833746"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.04ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:50:12 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.66ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:50:17 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.53ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:52:32 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.66ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:04:18 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.68ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:01 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.35ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:02 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.11ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:05 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (4.73ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:07 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (3.05ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:30 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.67ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:32 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.14ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:35 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.57ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:05:37 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.08ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:07:56 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.22ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:10:50 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.5ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:11:43 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.85ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:13:35 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.09ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:16:11 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Zucker", "artistName"=>"TLSP", "songTitle"=>"Miracle Aligner", "url"=>"https://www.youtube.com/watch?v=s8LtrwbEUow", "videoId"=>"s8LtrwbEUow", "user"=>{"name"=>"Zucker", "artistName"=>"TLSP", "songTitle"=>"Miracle Aligner", "url"=>"https://www.youtube.com/watch?v=s8LtrwbEUow", "videoId"=>"s8LtrwbEUow"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Zucker"], ["artistName", "TLSP"], ["songTitle", "Miracle Aligner"], ["url", "https://www.youtube.com/watch?v=s8LtrwbEUow"], ["created_at", "2018-06-13 21:16:11.275518"], ["updated_at", "2018-06-13 21:16:11.275518"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.04ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:21:18 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.13ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/v1/users/6" for 127.0.0.1 at 2018-06-13 17:21:36 -0400
+Processing by Api::V1::UsersController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:18
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/api/v1/users_controller.rb:18
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:18
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 27ms (Views: 6.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:21:39 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.07ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:22:10 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.94ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:22:10 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.27ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 17:23:43 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.13ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.7ms)
+
+
