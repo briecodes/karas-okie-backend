@@ -1378,3 +1378,425 @@ No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Cul
 Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 14:31:57 -0400
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (0.75ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 14:31:59 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (0.77ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 14:32:44 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.08ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 14:33:01 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (0.94ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 14:33:58 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.65ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:08:44 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.04ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:47:27 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.18ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:51:21 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.66ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:51:30 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.3ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:51:50 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.07ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:51:55 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.02ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:54:29 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.84ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:55:47 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.52ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:56:08 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.21ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:56:51 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.13ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:56:54 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.12ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 15:57:27 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 6, name: "Humzah", artistName: "Culture Club", songTitle: "Karma Chameleon", url: "https://www.youtube.com/watch?v=ngeF86_zxmY", created_at: "2018-06-13 15:59:51", updated_at: "2018-06-13 15:59:51">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (1.37ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 1.1ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7164728419561597710)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateUsers (20180613144531)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.7ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.5ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20180613144531"]]
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7164728419561597710)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7164728419561597710)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7164728419561597710)[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (152.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "karas_okie_backend_development"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (147.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "karas_okie_backend_test"[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/bin/rake:23
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:02:07 -0400
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "karas_okie_backend_development" does not exist
+):
+  
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:688:in `rescue in connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:03:23 -0400
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "karas_okie_backend_development" does not exist
+):
+  
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:688:in `rescue in connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (303.8ms)[0m  [1m[35mCREATE DATABASE "karas_okie_backend_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (307.4ms)[0m  [1m[35mCREATE DATABASE "karas_okie_backend_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7164728419561597710)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20180613144531)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "artistName" character varying, "songTitle" character varying, "url" character varying, "videoId" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20180613144531_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180613144531"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-06-13 20:04:44.466158"], ["updated_at", "2018-06-13 20:04:44.466158"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7164728419561597710)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:04:53 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/flatironschool/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by Api::V1::UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:04:57 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.09ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:05:22 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Mike", "artistName"=>"Run DMC", "songTitle"=>"It's Tricky", "url"=>"https://www.youtube.com/watch?v=GtGNywkxw2U", "videoId"=>"GtGNywkxw2U", "user"=>{"name"=>"Mike", "artistName"=>"Run DMC", "songTitle"=>"It's Tricky", "url"=>"https://www.youtube.com/watch?v=GtGNywkxw2U", "videoId"=>"GtGNywkxw2U"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Mike"], ["artistName", "Run DMC"], ["songTitle", "It's Tricky"], ["url", "https://www.youtube.com/watch?v=GtGNywkxw2U"], ["created_at", "2018-06-13 20:05:22.423122"], ["updated_at", "2018-06-13 20:05:22.423122"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.05ms)
+Completed 200 OK in 25ms (Views: 7.4ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:05:36 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (0.42ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:06:14 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Shawn", "artistName"=>"Ariana Grande", "songTitle"=>"No Tears Left to Cry", "url"=>"https://www.youtube.com/watch?v=PSYn6Y1B3KY", "videoId"=>"PSYn6Y1B3KY", "user"=>{"name"=>"Shawn", "artistName"=>"Ariana Grande", "songTitle"=>"No Tears Left to Cry", "url"=>"https://www.youtube.com/watch?v=PSYn6Y1B3KY", "videoId"=>"PSYn6Y1B3KY"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shawn"], ["artistName", "Ariana Grande"], ["songTitle", "No Tears Left to Cry"], ["url", "https://www.youtube.com/watch?v=PSYn6Y1B3KY"], ["created_at", "2018-06-13 20:06:14.273647"], ["updated_at", "2018-06-13 20:06:14.273647"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.05ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:06:56 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Ed Harris", "artistName"=>"Alan Walker", "songTitle"=>"Sing Me to Sleep", "url"=>"https://www.youtube.com/watch?v=9-3_EknhrI4", "videoId"=>"9-3_EknhrI4", "user"=>{"name"=>"Ed Harris", "artistName"=>"Alan Walker", "songTitle"=>"Sing Me to Sleep", "url"=>"https://www.youtube.com/watch?v=9-3_EknhrI4", "videoId"=>"9-3_EknhrI4"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ed Harris"], ["artistName", "Alan Walker"], ["songTitle", "Sing Me to Sleep"], ["url", "https://www.youtube.com/watch?v=9-3_EknhrI4"], ["created_at", "2018-06-13 20:06:56.633028"], ["updated_at", "2018-06-13 20:06:56.633028"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.19ms)
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:12:05 -0400
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"name"=>"Billy", "artistName"=>"Notorious BIG", "songTitle"=>"Hypnotize", "url"=>"https://www.youtube.com/watch?v=zUZqDVwbDss", "videoId"=>"zUZqDVwbDss", "user"=>{"name"=>"Billy", "artistName"=>"Notorious BIG", "songTitle"=>"Hypnotize", "url"=>"https://www.youtube.com/watch?v=zUZqDVwbDss", "videoId"=>"zUZqDVwbDss"}}
+Unpermitted parameters: :videoId, :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "artistName", "songTitle", "url", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Billy"], ["artistName", "Notorious BIG"], ["songTitle", "Hypnotize"], ["url", "https://www.youtube.com/watch?v=zUZqDVwbDss"], ["created_at", "2018-06-13 20:12:05.901037"], ["updated_at", "2018-06-13 20:12:05.901037"]]
+  ↳ app/controllers/api/v1/users_controller.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:10
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Class (0.1ms)
+Completed 200 OK in 7ms (Views: 1.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:12:13 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.98ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/v1/users" for 127.0.0.1 at 2018-06-13 16:12:14 -0400
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5
+No serializer found for resource: #<User id: 1, name: "Mike", artistName: "Run DMC", songTitle: "It's Tricky", url: "https://www.youtube.com/watch?v=GtGNywkxw2U", videoId: nil, created_at: "2018-06-13 20:05:22", updated_at: "2018-06-13 20:05:22">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with User::ActiveRecord_Relation (2.21ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 1.8ms)
+
+
