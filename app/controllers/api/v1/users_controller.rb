@@ -31,7 +31,7 @@ class Api::V1::UsersController < ApplicationController
     private
 
     def user_params
-        params.permit(:name, :artistName, :songTitle, :url)
+        params.permit(:name, :artistName, :songTitle, :url, :videoId)
     end
 
     def find_user
