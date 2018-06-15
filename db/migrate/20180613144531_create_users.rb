@@ -6,6 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :songTitle
       t.string :url
       t.string :videoId
+      t.integer :sortId
 
       t.timestamps
     end
